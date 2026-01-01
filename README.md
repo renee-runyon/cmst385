@@ -11,7 +11,7 @@ The live site is served from a **subdirectory**, not the root URL.
 
 ### Project URLs
 - **Project 1:**  
-  https://<your-app-name>.azurewebsites.net/project1
+  https://cmst385-umgc-rrunyon2.azurewebsites.net/project1/
 
 (Additional projects will be added in their respective folders.)
 
@@ -25,7 +25,13 @@ cmst385/
 └── README.md
 ```
 
-## Notes
+## Project 1 Notes
 - GitHub Actions deployment completes successfully with no errors.
-- Accessing the root URL without the project subdirectory may result in a permission error.
+- Accessing the root URL without the project subdirectory results in a permission error.
 - The required subdirectory path is documented in the FTP instructions but not explicitly noted in the GitHub Actions documentation.
+
+## Project 2 Notes
+
+## Project 3 Notes
+
+## Project 4 Notes
