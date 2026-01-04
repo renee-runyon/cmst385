@@ -1,17 +1,14 @@
-/* =========================
-   Global Styles
-   ========================= */
+/* Global Styles */
+
 body {
   background-color: #f5f5f5;
   color: #222;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* =========================
-   Wrapper / Content Container
-   ========================= */
+/* Wrapper / Content Container */
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -21,13 +18,14 @@ body {
   background-color: #f5f5f5;
 }
 
-/* =========================
-   Header & Navigation
-   ========================= */
+/* Header */
+
 header {
   background-color: #00263b;
   padding: 15px 0;
 }
+
+/* Navigation */
 
 #navbar {
   text-align: center;
@@ -36,7 +34,7 @@ header {
 #navbar .logo {
   display: block;
   font-size: 48px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Verdana, Arial, sans-serif;
   font-weight: bold;
   color: #ffffff;
   text-decoration: none;
@@ -55,12 +53,11 @@ header {
   text-decoration: underline;
 }
 
-/* =========================
-   Headings
-   ========================= */
+/* Headings */
+
 h1 {
   color: #333333;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
   font-size: 40px;
   text-align: center;
   margin-top: 10px;
@@ -69,34 +66,20 @@ h1 {
 
 h2 {
   color: #666666;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
   font-size: 22px;
   margin: 0 0 10px 0;
 }
 
-/* =========================
-   Paragraphs
-   ========================= */
+/* Paragraphs */
+
 p {
   font-size: 16px;
   line-height: 1.6;
   margin: 15px 0;
 }
 
-/* =========================
-   Images
-   ========================= */
-.album img {
-  width: 200px;
-  height: auto;
-  border: 1px solid #ccc;
-  padding: 5px;
-  background-color: #fafafa;
-}
-
-/* =========================
-   Home Page Grid Layout
-   ========================= */
+/* Home Layout */
 
 #home {
     background: white;
@@ -124,9 +107,8 @@ p {
 }
 
 
-/* =========================
-   Album Layout
-   ========================= */
+/* Music Layout */
+
 .album {
   display: grid;
   grid-template-columns: 200px 1fr; /* left = image, right = text */
@@ -157,6 +139,16 @@ p {
   margin-top: 5px;
 }
 
+.album img {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #fafafa;
+}
+
+/* News Layout */
+
 .news-item {
     padding: 30px;
     background: white;
@@ -166,9 +158,8 @@ p {
 
 }
 
-/* =========================
-   Footer
-   ========================= */
+/* Footer */
+
 footer {
   background-color: #00263b;
   color: #fff;
@@ -179,5 +170,5 @@ footer {
 
 footer p {
   margin: 0;
-  font-size: 14px;
+  font-size: 14px;  
 }
